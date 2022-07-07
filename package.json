@@ -1,0 +1,25 @@
+{
+  "name": "@polyrepo/cli",
+  "version": "1.0.0",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/polyrepo/cli.git"
+  },
+  "author": "@serdnaley",
+  "license": "MIT",
+  "private": "true",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^10.0.0",
+    "lodash": "^4.17.21",
+    "yargs": "^17.2.1"
+  },
+  "bin": {
+    "polyrepo": ".bin/polyrepo.js"
+  }
+}

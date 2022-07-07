@@ -1,0 +1,10 @@
+*
+!.gitignore
+!patches
+!patches/**
+!plugins
+!plugins/**
+!releases
+!releases/**
+!sdks
+!sdks/**
